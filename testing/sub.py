@@ -1,4 +1,10 @@
 #!/urs/bin/python
+####   This will hopefully edit the config file for Nginx to allow a user to add and delete subdomains
+####   on a shared webserver.   Its a work in progress so don't judge.   Currently its only set for one 
+####   user to use.  Utimately I'd like it to read the name of the logged in user and pick the proper
+####   nginx file based on the logged in user.   I'll have to redo the naming convention on the server
+####   before this can be rolled into production.   
+
 import sys
 import fileinput
 import os
